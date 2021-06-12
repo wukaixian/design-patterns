@@ -1,7 +1,7 @@
 package decorator.pancake;
 
 /**
- * 4、具体的装饰者
+ * 4、具体的装饰者-加油条
  */
 public class Youtiao extends CondimentDecorator {
     protected Youtiao(Pancake pancake) {

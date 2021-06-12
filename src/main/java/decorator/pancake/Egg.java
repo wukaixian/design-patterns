@@ -1,7 +1,7 @@
 package decorator.pancake;
 
 /**
- * 4、具体的装饰者-ConcreteDecorator
+ * 4、具体的装饰者-ConcreteDecorator-加蛋
  */
 public class Egg extends CondimentDecorator {
     protected Egg(Pancake pancake) {
