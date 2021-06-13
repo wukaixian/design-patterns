@@ -1,8 +1,8 @@
-package factory.simplefactory;
+package factory;
 
 
 public enum PizzaTypeEnum {
     CHEESE,
     CLAM,
-    VEGGIE;
+    VEGGIE
 }

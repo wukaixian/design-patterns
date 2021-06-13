@@ -1,11 +1,12 @@
-package factory.simplefactory;
+package factory.factorymethod.la;
 
 import factory.Pizza;
 
-public class ClamPizza extends Pizza {
-    protected ClamPizza() {
-        super("Clam Pizza");
+public class LAStyleVeggiePizza extends Pizza {
+    public LAStyleVeggiePizza() {
+        super("LAStypeVeggiePizza");
     }
+
 
     @Override
     public void prepare() {

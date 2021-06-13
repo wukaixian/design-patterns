@@ -1,11 +1,12 @@
-package factory.simplefactory;
+package factory.factorymethod.ny;
 
 import factory.Pizza;
 
-public class ClamPizza extends Pizza {
-    protected ClamPizza() {
-        super("Clam Pizza");
+public class NYStypeCheesePizza extends Pizza {
+    public NYStypeCheesePizza() {
+        super("NYStypeCheesePizza");
     }
+
 
     @Override
     public void prepare() {

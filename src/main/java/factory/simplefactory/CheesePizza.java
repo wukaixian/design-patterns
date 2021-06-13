@@ -1,5 +1,7 @@
 package factory.simplefactory;
 
+import factory.Pizza;
+
 public class CheesePizza extends Pizza {
     public CheesePizza() {
         super("Cheese Pizza");

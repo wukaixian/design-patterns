@@ -1,4 +1,4 @@
-package factory.simplefactory;
+package factory;
 
 public abstract class Pizza {
     private final String name;

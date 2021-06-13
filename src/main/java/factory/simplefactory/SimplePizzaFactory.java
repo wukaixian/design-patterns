@@ -1,6 +1,7 @@
 package factory.simplefactory;
 
-import java.security.NoSuchProviderException;
+import factory.Pizza;
+import factory.PizzaTypeEnum;
 
 public class SimplePizzaFactory {
     public static Pizza createPizza(PizzaTypeEnum type) {
